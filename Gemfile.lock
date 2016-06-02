@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    hen (0.8.5)
+      highline (~> 1.7)
+      nuggets (~> 1.5)
+      safe_yaml (~> 1.0)
+    highline (1.7.8)
+    nuggets (1.5.0)
+    power_assert (0.3.0)
+    rake (11.1.2)
+    rake-compiler (0.9.9)
+      rake
+    safe_yaml (1.0.4)
+    test-unit (3.1.9)
+      power_assert
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hen (>= 0.8.5)
+  rake
+  rake-compiler
+  test-unit
+
+BUNDLED WITH
+   1.10.5
